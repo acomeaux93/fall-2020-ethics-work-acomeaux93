@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- descriptive title -->
+        <title>Your Horoscope Results</title>
+        <link href="/static/base.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- appropriate headers-->
+        <h1> YOUR DAILY HOROSCOPE </h1>
+        <img src = {{ your_photo }} alt = "Constellations of the 12 different signs: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, and Pisces" width = "500">
+
+        <p> {{ your_name }}, your sign is:  </p>
+        <h2> {{ your_sign }} </h2>
+        <p> Your horoscope is: </p>
+        <p> {{ your_horoscope }} </p>
+
+    </body>
+</html>
